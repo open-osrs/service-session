@@ -46,7 +46,7 @@ public class SessionController
 		HashMap<String, Session> newSessions = new HashMap<>();
 		for (Map.Entry<String, Session> session : activeSessions.entrySet())
 		{
-			if (!(session.getValue().lastUpdate < (System.currentTimeMillis() - 4 * 60 * 1000)))
+			if (!(session.getValue().lastUpdate < (System.currentTimeMillis() - 11 * 60 * 1000)))
 			{
 				newSessions.put(session.getKey(), session.getValue());
 			}
