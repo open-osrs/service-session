@@ -1,2 +1,2 @@
-rootProject.name = "OpenOSRS-Session"
+rootProject.name = "service-session"
 
